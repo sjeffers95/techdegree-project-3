@@ -1,0 +1,7 @@
+/* I dont remembet if border-box is supposed to be universal or html... */
+* {
+    box-sizing: border-box;
+
+}
+
+/* I need to figure out what the code is to get rid of automatic browswer styles so I can set my own...sigh */
