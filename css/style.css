@@ -24,6 +24,12 @@ header p,
 button {
     text-align: center;
 }
+header p{
+    padding-bottom: 20px;
+    border-bottom: solid black 6px;
+    border-style: none none double none;
+}
+
 form {
   max-width: 700px;
   margin: auto;
@@ -32,7 +38,7 @@ h2,
 label,
 legend {
     color: #2c3944;
-    font-size: 14px;
+    font-size: 15px;
 }
 legend {
     font-weight: 700;
@@ -40,6 +46,8 @@ legend {
 label {
     display: block;
     margin: 3px auto;
+    font-size: 12px;
+    padding: 11px 0 3px 0;
 }
 .newsletter label {
     display: inline;
@@ -58,14 +66,25 @@ p {
 }
 fieldset {
     border: none;
+    margin: auto;
 }
 .newsletter {
     border-top: black solid 2px;
 }
-input {
-    display: block;
+.form-input-box {
+    border-radius: 4px;
+    height: 45px;
 }
-input:
+
+/* this is still affecting the input box itself not just the placeholder text...*/
+[placeholder="Required"] {
+    text-align: right;
+    padding-right: 20px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+
 
 
 
