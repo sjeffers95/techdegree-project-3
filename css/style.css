@@ -29,19 +29,6 @@ h3 {
     color: gray;
     font-weight: 300;
 }
-button {
-    background-color: #4EBBB5;
-    border: none;
-    color: white;
-    font-family: 'Merriweather', serif; 
-    padding: 15px 0;
-    width: 90%;
-    margin: auto;
-    border-radius: 4px;
-    font-weight: 900;
-    font-size: 14px;
-    display: block;
-}
 header p {
     padding-bottom: 20px;
     border-bottom: solid #2c3944 6px;
@@ -60,6 +47,7 @@ legend {
 }
 legend {
     font-weight: 700;
+    margin-top: 30px;
 }
 label {
     display: block;
@@ -75,10 +63,14 @@ p {
 }
 .contact-info input,
 .contact-info select,
-button,
 textarea {
      width: 100%;
- }
+     height: 45px;
+     border-radius: 4px;
+     border: none;
+     background-color:rgb(235, 235, 235);
+}
+
 .contact-info input,
 .contact-info select {
     border: none;
@@ -94,22 +86,45 @@ fieldset {
 .newsletter {
     border-top: #2c3944 solid 2px;
 }
-.form-input-box,
+.newsletter label {
+    color: gray;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.newsletter input {
+    margin: 5px 8px 15px 0;
+}
+
+/* .form-input-box,
 select,
 button,
 #zip-code {
     border-radius: 4px;
     height: 45px;
-}
+} */
 textarea {
     border: none;
     background-color: rgb(235, 235, 235);
-    border-radius: 4px;
     margin: 8px 0 8px 0;
     padding: 40px 0;
 }
 #state {
     color: #b5b5b5;
+}
+button {
+    background-color: #4EBBB5;
+    border: none;
+    color: white;
+    font-family: 'Merriweather', serif; 
+    padding: 15px 0;
+    margin: auto;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 14px;
+    display: block;
+    width: 100%
+    
 }
 
 
