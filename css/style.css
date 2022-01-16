@@ -7,10 +7,10 @@
 body {
     background-color: white;
     font-family: 'Merriweather', serif; 
+    color: #2c3944;
 }
 
 h1 {
-    text-align: center;
     background-color: #2c3944;
     color: white;
     margin: auto;
@@ -18,10 +18,16 @@ h1 {
     width: 98%;
     font-size: 18px;
 }
+h1,
 header h2,
 header p,
 button {
     text-align: center;
+}
+h3 {
+    font-size: 12px;
+    color: gray;
+    font-weight: 300;
 }
 button {
     background-color: #4EBBB5;
@@ -38,7 +44,7 @@ button {
 }
 header p {
     padding-bottom: 20px;
-    border-bottom: solid black 6px;
+    border-bottom: solid #2c3944 6px;
     border-style: none none double none;
 }
 
@@ -68,10 +74,15 @@ p {
     color: silver;
 }
 .contact-info input,
+.contact-info select,
+button,
+textarea {
+     width: 100%;
+ }
+.contact-info input,
 .contact-info select {
     border: none;
     background-color: rgb(235, 235, 235);
-    width: 98%;
 }
 #zip-code {
     width: 50%;
@@ -81,9 +92,12 @@ fieldset {
     margin: auto;
 }
 .newsletter {
-    border-top: black solid 2px;
+    border-top: #2c3944 solid 2px;
 }
-.form-input-box {
+.form-input-box,
+select,
+button,
+#zip-code {
     border-radius: 4px;
     height: 45px;
 }
@@ -92,8 +106,7 @@ textarea {
     background-color: rgb(235, 235, 235);
     border-radius: 4px;
     margin: 8px 0 8px 0;
-    width: 100%;
-    padding: 40px;
+    padding: 40px 0;
 }
 #state {
     color: #b5b5b5;
@@ -108,11 +121,11 @@ textarea {
     font-size: 10px;
     color: #b5b5b5;
 }
-hr {
-    height: 6px; /*effects the line's thickness*/
+/* hr {
+    height: 6px; effects the line's thickness
     width: 80%;
     margin: 0 auto;
- }
+ } */
  footer {
      text-align: center;
      font-size: 12px;
