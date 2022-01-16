@@ -89,7 +89,7 @@ fieldset {
 .newsletter label {
     color: gray;
     padding: 0;
-    margin: 0;
+    /* margin-bottom: 3px;                       This did nothing */
     display: inline;
 }
 .newsletter input {
