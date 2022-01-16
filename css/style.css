@@ -14,17 +14,29 @@ h1 {
     background-color: #2c3944;
     color: white;
     margin: auto;
-    padding: 20px 0;
+    padding: 25px 0;
     width: 98%;
     font-size: 18px;
 }
-
 header h2,
 header p,
 button {
     text-align: center;
 }
-header p{
+button {
+    background-color: #4EBBB5;
+    border: none;
+    color: white;
+    font-family: 'Merriweather', serif; 
+    padding: 15px 0;
+    width: 90%;
+    margin: auto;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 14px;
+    display: block;
+}
+header p {
     padding-bottom: 20px;
     border-bottom: solid black 6px;
     border-style: none none double none;
@@ -75,15 +87,37 @@ fieldset {
     border-radius: 4px;
     height: 45px;
 }
+textarea {
+    border: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    margin: 8px 0 8px 0;
+    width: 100%;
+    padding: 40px;
+}
+#state {
+    color: #b5b5b5;
+}
+
 
 /* this is still affecting the input box itself not just the placeholder text...*/
 [placeholder="Required"] {
     text-align: right;
-    padding-right: 20px;
+    padding-right: 30px;
     font-style: italic;
     font-size: 10px;
+    color: #b5b5b5;
 }
-
+hr {
+    height: 6px; /*effects the line's thickness*/
+    width: 80%;
+    margin: 0 auto;
+ }
+ footer {
+     text-align: center;
+     font-size: 12px;
+     margin-top: 25px;
+ }
 
 
 
