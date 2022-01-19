@@ -1,7 +1,6 @@
 /* I dont remembet if border-box is supposed to be universal or html... */
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -9,13 +8,12 @@ body {
     font-family: 'Merriweather', serif; 
     color: #2c3944;
 }
-
 h1 {
     background-color: #2c3944;
     color: white;
     margin: auto;
     padding: 25px 0;
-    width: 98%;
+    width: 100%;
     font-size: 18px;
 }
 h1,
@@ -32,9 +30,10 @@ h3 {
 header p {
     padding-bottom: 20px;
     border-bottom: solid #2c3944 6px;
-    border-style: none none double none;
+    width: 100%
+    text-align: center;
+    margin: auto 12px;
 }
-
 form {
   max-width: 700px;
   margin: auto;
@@ -47,7 +46,6 @@ legend {
 }
 legend {
     font-weight: 700;
-    margin-top: 30px;
 }
 label {
     display: block;
@@ -55,11 +53,14 @@ label {
     font-size: 12px;
     padding: 11px 0 3px 0;
 }
-.newsletter label {
-    display: inline;
-}
 p {
     color: silver;
+}
+.contact-info {
+    border-top: #2c3944 solid 2px;
+    border-bottom: #2c3944 solid 2px;
+    margin: auto 12px;
+    padding: 12px 0 12px 0;
 }
 .contact-info input,
 .contact-info select,
@@ -82,9 +83,6 @@ textarea {
 fieldset {
     border: none;
     margin: auto;
-}
-.newsletter {
-    border-top: #2c3944 solid 2px;
 }
 .newsletter label {
     color: gray;
@@ -148,7 +146,13 @@ button {
  }
 
 
+/* Flex stuffs =============================================================== */
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
 
 
