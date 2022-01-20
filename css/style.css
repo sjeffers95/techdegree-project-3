@@ -61,6 +61,7 @@ p {
     border-bottom: #2c3944 solid 2px;
     margin: 20px 12px;
     padding: 12px 0;
+    background-color: #c6afca;
 }
 .contact-info input,
 .contact-info select,
@@ -127,6 +128,13 @@ button {
     width: 100%
     
 }
+input:focus,
+select:focus,
+textarea:focus {
+    border: solid rgb(12, 47, 77) 3px;
+    a
+}
+
 
 
 /* this is still affecting the input box itself not just the placeholder text...*/
