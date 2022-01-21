@@ -33,11 +33,11 @@ h3 {
     font-weight: 300;
 }
 .thick-line {
-    border-bottom: #2c3944 solid 5px;
+    border-bottom: #2c3944 solid 4px;
     margin: auto 12px;
 }
 .thin-line {
-    border-bottom: #2c3944 solid 3px;
+    border-bottom: #2c3944 solid 2px;
     margin: 3px 12px;
 }
 form {
@@ -68,6 +68,9 @@ p {
     padding: 12px 5px 20px 5px;
     /* background-color: pink; */
 }
+.contact-info label {
+    color: gray;
+}
 .contact-info input,
 .contact-info select,
 textarea {
@@ -95,9 +98,6 @@ textarea {
 fieldset {
     border: none;
     margin: auto;
-}
-.newsletter {
-
 }
 .newsletter label {
     color: gray;
