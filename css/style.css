@@ -86,7 +86,6 @@ textarea {
     display: block;
     padding-top: 12px;
 }
-
 .contact-info input,
 .contact-info select {
     border: none;
@@ -99,6 +98,13 @@ fieldset {
     border: none;
     margin: auto;
 }
+#news-legend {
+    padding-top: 50px;
+    display: table;
+}
+.newsletter {
+    background-color: lightblue;
+}
 .newsletter label {
     color: gray;
     padding: 0;
@@ -110,6 +116,10 @@ fieldset {
 .newsletter-div {
     width: 98%;
     margin: auto;
+}
+textarea,
+select {
+    font-size: 12px;
 }
 
 
