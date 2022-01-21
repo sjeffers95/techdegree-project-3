@@ -22,6 +22,11 @@ header p,
 button {
     text-align: center;
 }
+header p {
+    margin: 0 10px 15px 10px;
+    font-size: 11px;
+    line-height: 1.5;
+}
 h3 {
     font-size: 12px;
     color: gray;
@@ -59,9 +64,9 @@ p {
 }
 .contact-info {
     border-bottom: #2c3944 solid 2px;
-    margin: 20px 12px;
-    padding: 12px 0;
-    background-color: pink;
+    margin: 10px 10px;
+    padding: 12px 5px 20px 5px;
+    /* background-color: pink; */
 }
 .contact-info input,
 .contact-info select,
@@ -75,7 +80,8 @@ textarea {
 .contact-info legend {
     background: inherit;
     width: 100%;
-    padding-top: 7px;
+    display: block;
+    padding-top: 12px;
 }
 
 .contact-info input,
@@ -141,7 +147,6 @@ input:focus,
 select:focus,
 textarea:focus {
     border: solid rgb(12, 47, 77) 3px;
-    a
 }
 
 
