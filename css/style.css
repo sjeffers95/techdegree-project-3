@@ -195,4 +195,46 @@ textarea:focus {
 
 
 
-/* I need to figure out what the code is to get rid of automatic browswer styles so I can set my own...sigh */
+/* --------------Media Query------------------- */
+
+@media (min-width: 760px) {
+    body {
+        margin: 0;
+    }
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+    form {
+        margin-top: 30px;
+    }
+    .thick-line,
+    .thin-line {
+        max-width: 900px;
+        align-self: center;
+    }
+    .form-div {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 15px;
+    }
+    .form-div label {
+        width: 20%;
+        margin: 0;
+        color: #2c3944;
+        font-size: 14px;
+    }
+    #zip-code {
+        width: 20%;
+    }
+    .newsletter {
+        background: inherit;
+        margin-top: 30px;
+    }
+    .newsletter legend {
+        padding-left: 10px;
+    }
+    button {
+        width: 98%;
+    }
+}
