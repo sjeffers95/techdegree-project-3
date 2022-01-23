@@ -165,6 +165,15 @@ input:focus,
 select:focus,
 textarea:focus {
     border: solid rgb(12, 47, 77) 3px;
+    transform: scale(1.1);
+    transition: all 500ms;
+}
+button:hover {
+    background-color: rgb(54, 134, 130);
+}
+button:focus {
+    transform: scale(0.9);
+    transition: all 200ms;
 }
 
 
