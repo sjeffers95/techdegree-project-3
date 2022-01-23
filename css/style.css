@@ -208,10 +208,23 @@ textarea:focus {
     form {
         margin-top: 30px;
     }
+    h2 {
+        font-size: 1.15em;
+    }
+    .header-text,
+    .form-div label {
+        font-size: 0.8em;
+    }
     .thick-line,
     .thin-line {
         max-width: 900px;
         align-self: center;
+    }
+    .contact-info legend {
+        padding-bottom: 10px;
+    }
+    legend {
+        font-size: 1.0em;
     }
     .form-div {
         display: flex;
@@ -219,13 +232,16 @@ textarea:focus {
         padding-bottom: 15px;
     }
     .form-div label {
-        width: 20%;
+        width: 16%;
         margin: 0;
         color: #2c3944;
-        font-size: 14px;
+    }
+    .form-div input,
+    .form-div select {
+        width: 84%;
     }
     #zip-code {
-        width: 20%;
+        width: 21%;
     }
     .newsletter {
         background: inherit;
