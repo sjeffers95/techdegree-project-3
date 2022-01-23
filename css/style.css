@@ -99,11 +99,14 @@ fieldset {
     margin: auto;
 }
 #news-legend {
-    padding-top: 50px;
-    display: table;
+    padding-top: 30px;
+    margin-top: 20px;
 }
 .newsletter {
-    background-color: lightblue;
+    background-color: rgba(78, 187, 181, 0.15);
+    width: 94%;
+    border-radius: 4px;
+    padding-bottom: 5px;
 }
 .newsletter label {
     color: gray;
@@ -121,6 +124,10 @@ textarea,
 select {
     font-size: 12px;
 }
+label[for="other-topics"] {
+    padding-top: 30px;
+    margin-top: 30px;
+}
 
 
 /* .form-input-box,
@@ -134,7 +141,7 @@ textarea {
     border: none;
     background-color: rgb(235, 235, 235);
     margin: 8px 0 8px 0;
-    padding: 40px 0;
+    padding: 6px 12px 50px 12px;
 }
 #state {
     color: #b5b5b5;
@@ -146,6 +153,7 @@ button {
     font-family: 'Merriweather', serif; 
     padding: 15px 0;
     margin: auto;
+    margin-top: 5px;
     border-radius: 4px;
     font-weight: 900;
     font-size: 14px;
@@ -183,7 +191,8 @@ textarea:focus {
 
 /* Flex stuffs =============================================================== */
 
-.contact-info {
+.contact-info,
+.newsletter-div {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -192,12 +201,15 @@ textarea:focus {
    width: 98%;
    margin: auto;
 }
+.textarea-div {
+    margin-top:10px;
+}
 
 
 
 /* --------------Media Query------------------- */
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
     body {
         margin: 0;
     }
@@ -207,6 +219,16 @@ textarea:focus {
     }
     form {
         margin-top: 30px;
+    }
+    .header-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .thick-line,
+    .thin-line {
+        width: 97%;
     }
     h2 {
         font-size: 1.15em;
@@ -243,12 +265,11 @@ textarea:focus {
     #zip-code {
         width: 21%;
     }
-    .newsletter {
-        background: inherit;
-        margin-top: 30px;
-    }
     .newsletter legend {
         padding-left: 10px;
+    }
+    .newsletter-h3 {
+        margin-top: 15px;
     }
     button {
         width: 98%;

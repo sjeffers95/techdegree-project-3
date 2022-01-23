@@ -16,10 +16,13 @@
 
     
     <h1>THE CODE REVIEW</h1>
-    <h2>Signup for our newsletter</h2>
-    <p class="header-text">Get the latest news on how your code is doing right in your inbox</p>
-    <p class="thick-line"></p>
-    <p class="thin-line"></p>
+    <div class="header-div">
+        <h2>Signup for our newsletter</h2>
+        <p class="header-text">Get the latest news on how your code is doing right in your inbox</p>
+        <p class="thick-line"></p>
+        <p class="thin-line"></p>
+    </div>
+    
    
     </header>   
 
@@ -116,28 +119,46 @@
             <fieldset class="newsletter block">
                 <legend id="news-legend">Newsletter</legend>
                 <div class="newsletter-div">
-                    <h3> Select the newsletters you would like to receive</h3>
+                    <h3 class="newsletter-h3">Select the newsletters you would like to receive</h3>
 
-                
-                    <input type="checkbox" id="html-news" name="newsletter-content" value="newsletter-html">
-                    <label for="html-news">HTML News</label><br>
+                    <div>
+                        <input type="checkbox" id="html-news" name="newsletter-content" value="newsletter-html">
+                        <label for="html-news">HTML News</label><br>
+                    </div>
                     
-                    <input type="checkbox" id="css-news" name="newsletter-content" value="newsletter-css">
-                    <label for="css-news">CSS News</label><br>
+                    <div>
+                        <input type="checkbox" id="css-news" name="newsletter-content" value="newsletter-css">
+                        <label for="css-news">CSS News</label><br>
+                    </div>
                     
-                    <input type="checkbox" id="js-news" name="newsletter-content" value="newsletter-js">
-                    <label for="js-news">Javascript News</label><br>
+                    <div>
+                        <input type="checkbox" id="js-news" name="newsletter-content" value="newsletter-js">
+                        <label for="js-news">Javascript News</label><br>
+                    </div>
+                    
 
-                    <h3>Newsletter format</h3>
+                    <h3 class="newsletter-h3">Newsletter format</h3>
 
-                    <input type="radio" id="html-format" name="newsletter-format" value="html-format">
-                    <label for="html-format">HTML</label><br>
+                    <div>
+                        <input type="radio" id="html-format" name="newsletter-format" value="html-format">
+                        <label for="html-format">HTML</label><br>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="plain-text-format" name="newsletter-format" value="plain-text-format">
+                        <label for="plain-text-format">Plain text</label><br>
+                    </div>
 
-                    <input type="radio" id="plain-text-format" name="newsletter-format" value="plain-text-format">
-                    <label for="plain-text-format">Plain text</label><br>
-
-                    <label for="other-topics">Other topics you'd like to hear about</label><br>
-                    <textarea id="other-topics" name="other-topics" placeholder="Optional"></textarea>
+                    <div>
+                        <input type="radio" id="plain-text-format" name="newsletter-format" value="plain-text-format">
+                        <label for="plain-text-format">Plain text</label><br>
+                    </div>
+                    
+                    <div class="textarea-div">
+                        <label for="other-topics">Other topics you'd like to hear about</label><br>
+                        <textarea id="other-topics" name="other-topics" placeholder="Optional"></textarea>
+                    </div>
+                    
                 </div>
                 
                 
