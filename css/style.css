@@ -103,7 +103,7 @@ fieldset {
     margin-top: 20px;
 }
 .newsletter {
-    background-color: rgba(78, 187, 181, 0.15);
+    /* background-color: rgba(78, 187, 181, 0.15); */
     width: 94%;
     border-radius: 4px;
     padding-bottom: 5px;
